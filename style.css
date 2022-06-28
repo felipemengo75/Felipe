@@ -5,64 +5,96 @@
 }
 
 body{
-      background: #060A1666;
+    background: linear-gradient(180deg, rgba(6, 10, 22, 0.4) 0%, rgba(6, 10, 22, 0.04) 100%);
 }
 
 h1{
-    color: #000000;
-    font-size: 32px;
-    line-height: 8px;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 700;
-    align: center;
-    position: absolute;
-    top: 77px;
-    left: 618px;
+   display: flex; 
+   flex-direction: row;
+   color: #000000;
+   font-size: 18px;
+   line-height: 26.44px;
+   font-family: 'Heebo', sans-serif;
+   font-weight: 500;
+   text-align: center;
+   position: absolute;
+   top: 40px;
+   left: 132px;
 }
 
-article{
-        width: 1134px;
-        height: 48px;
+a:hover{
+            color: whitesmoke;
+            text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+}
+
+.Menu ul{
+       background-color: linear-gradient(180deg, rgba(6, 10, 22, 0.1) 0%, rgba(6, 10, 22, 0.1) 100%, rgba(6, 10, 22, 0.2) 100%);
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       align-items: flex-start;
+       list-style: none;
+       text-decoration: none;
+       opacity: 0.9;
+       position: absolute;
+       top: 40px;
+       left: 424px;
+       gap: 92px;
+}
+
+.Menu li{
+       color: #000000;
+       font-size: 18px;
+       line-height: 26.44px;
+       text-align: center;
+       font-family: 'Heebo', sans-serif;
+       font-weight: 500;
+}
+
+.Titulo{
+        background-color: linear-gradient(180deg, rgba(6, 10, 22, 0.1) 0%, rgba(6, 10, 22, 0.1) 100%, rgba(6, 10, 22, 0.2) 100%);
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
-        padding: 8px 0px;
-        gap: 295px;
-        position: absolute;
-        top: 153px;
-        left: 79px;
-        right: 131px;
+        gap: 47px;
+        border-radius: 50px;
+        margin-top: 283px;
+        margin-left: 132px;
 }
 
-article h2{    
-    color: #000000;
-           font-size: 18px;
-           line-height: 32px;
+.Titulo h2{
+           color: #060A16;
+           font-size: 44px;
+           line-height: 8px;
+           align: center;
            font-family: 'IBM Plex Sans', sans-serif;
-           font-weight: 500;
+           font-weight: 700;
+           margin-bottom: 94px;
 }
 
-.Anime{
-       width: 420px;
-       height: 703px;
+.Titulo h3{
+           color: linear-gradient(180deg, #060A16 0%, #060A16 100%);
+           font-size: 20px;
+           line-height: 8px;
+           align: center;
+           font-family: 'IBM Plex Sans', sans-serif;
+           font-weight: 600;
+           margin-bottom: 94px;
+}
+
+picture{
+       width: 452px;
+       height: 796px;
+       border-radius: 10px;
        position: absolute;
-       top: 247px;
-       left: 8px;
-}
-
-.Música{
-        width: 420px;
-        height: 703px;
-        position: absolute;
-        top: 247px;
-        left: 468px;
-}
-
-.Filme{
-       width: 420px;
-       height: 703px;
-       position: absolute;
-       top: 247px;
-       left: 888px;
+       top: 0px;
+       left: 892px;
+       background: linear-gradient(180deg, rgba(6, 10, 22, 0.02) 100%, rgba(6, 10, 22, 0.04) 100%);
 }
