@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+      background: #060A1666;
+}
+
+h1{
+    color: #000000;
+    font-size: 32px;
+    line-height: 8px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+    align: center;
+    position: absolute;
+    top: 77px;
+    left: 618px;
+}
+
+article{
+        width: 1134px;
+        height: 48px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 8px 0px;
+        gap: 295px;
+        position: absolute;
+        top: 153px;
+        left: 79px;
+        right: 131px;
+}
+
+article h2{    
+    color: #000000;
+           font-size: 18px;
+           line-height: 32px;
+           font-family: 'IBM Plex Sans', sans-serif;
+           font-weight: 500;
+}
+
+.Anime{
+       width: 420px;
+       height: 703px;
+       position: absolute;
+       top: 247px;
+       left: 8px;
+}
+
+.Música{
+        width: 420px;
+        height: 703px;
+        position: absolute;
+        top: 247px;
+        left: 468px;
+}
+
+.Filme{
+       width: 420px;
+       height: 703px;
+       position: absolute;
+       top: 247px;
+       left: 888px;
+}
